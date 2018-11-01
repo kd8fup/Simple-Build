@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "myFirstRepository"]
+	url = pi@192.168.1.31:/home/pi/git/myFirstRepository
+	fetch = +refs/heads/*:refs/remotes/myFirstRepository/*
+	url = http://47.33.196.39:22
+	url = 192.168.1.31:22
+[gui]
+	wmstate = normal
+	geometry = 893x435+78+78 175 196
+[remote "mfr"]
+	url = pi@192.168.1.35:/home/pi/git/mfr
+	fetch = +refs/heads/*:refs/remotes/mfr/*
